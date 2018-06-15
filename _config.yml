@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Roels Blog
 description: Journey through my adventures while trying to develop software.
+baseurl: https://hoithebest.github.io/roelvdwater.net
