@@ -1,3 +1,8 @@
-## Welcome to my blog
-
-I've just set up this blog, so be sure to visit this blog again in the not too distant future to find some content!
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
