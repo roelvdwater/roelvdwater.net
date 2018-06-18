@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-06-15 16:00:00 +0100
 author: "Roel van de Water"
-permalink: /_title:output_ext
 tags: [jekyll, update, test tag]
 ---
 
