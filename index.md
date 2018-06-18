@@ -1,8 +1,4 @@
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  {{ post.excerpt }}
+{% endfor %}
