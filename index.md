@@ -3,7 +3,7 @@
   {% if post.tags.size > 0 %}
   <ul class="tags">
     {% for tag in post.tags %}
-      <li>{% tag %}</li>
+      <li>{{ tag }}</li>
     {% endfor %}
   </ul>
   {% endif %}
