@@ -18,7 +18,7 @@
       <h1>{{ page.title }}</h1>
       {{ content }}
       <footer class="article-footer">
-        Written by {{ page.author }} on {{ page.date | date_to_long_string }}.
+        <span>Written by {{ page.author }} on <time datetime="{{ page.date | date: "%F" }}">{{ page.date | date_to_long_string }}</time>.</span>
         <ul class="tags">
           {% for tags in page.tags %}
             <li>{{ tags }}</li>
