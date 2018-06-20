@@ -17,3 +17,15 @@
     font-size: .8em;
     display: inline-block;
 }
+
+.article-footer {
+    background: #eee;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+.article-footer span {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-style: italic;
+}
