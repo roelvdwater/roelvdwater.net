@@ -8,4 +8,5 @@
   </ul>
   {% endif %}
   {{ post.excerpt }}
+  <p class="article-information"><span class="glyphicons glyphicons-clock"></span> 5 mins read</p>
 {% endfor %}
