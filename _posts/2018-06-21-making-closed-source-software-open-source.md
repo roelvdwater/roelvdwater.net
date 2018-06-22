@@ -5,7 +5,9 @@ date:   2018-06-21 08:00:00 +0100
 tags: [Closed source, Open source, Story]
 author: "Roel van de Water"
 ---
-I want to kick off this blog with a less technical article, but certainly programming related. This article is about making previously closed source software open source. It shows you a set of the different decisions you have to make and what steps you have to take to make your code open source. This article is based on my personal experience, and your steps might be different or you might follow a whole different road.
+I want to kick off this blog with a less technical article, but certainly programming related. This article is about making previously closed source software open source. It shows you a set of the different decisions you have to make and what steps you have to take to make your code open source.
+
+**Note:** This article is based on my personal experience, and your steps might be different or you might follow a whole different road.
 
 ## My own story
 A couple of years ago, I've been developing my own two-factor authentication (2FA) application for the Microsoft Store, when I had a Windows phone myself and there was no good alternative. I've spent months on developing a good app and gained quite some users and feedback in the following months. I even setup a nice website to show off my app and to show the awesome features it offered.
