@@ -53,4 +53,4 @@ When you tihnk of updating your current codebase, think of updating references t
 In my case, it meant updating the 'About' page, informing people that it's now an open source app, and I changed the official domain name to be the one of the public repository, so that people who are interested can go to the official project repository easily.
 
 ## Wrapping up
-It might sound a lot of work make your previously closed source code open source. It's not. For me, I spent the most time deciding whether I should make my app open source or not. The rest of it was quite simple.
+It might sound like a lot of work make your previously closed source code open source. It's not. For me, I spent the most time deciding whether I should make my app open source or not. The rest of it was quite simple.
