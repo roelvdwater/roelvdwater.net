@@ -1,8 +1,3 @@
-
----
-layout: default
-title: Tag
----
 {% for tag in tags %}
 	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
 	<ul>
