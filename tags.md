@@ -1,14 +1,8 @@
-{% for tag in tags %}
-	<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-	<ul>
-	 {% for post in site.posts %}
-		 {% if post.tags contains tag %}
-     <h2>{{ post.title }}
-		 </a>
-		 {% for tag in post.tags %}
-			 <a class="tag" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
-		 {% endfor %}
-		 {% endif %}
-	 {% endfor %}
-	</ul>
+{% for t in site.tags %}
+    {% if t.Name == page.tag %}
+        {% for post in t.posts reverse %}
+     	    {{ post.title }}
+            <hr>
+        {% endfor %}
+    {% endif %}
 {% endfor %}
