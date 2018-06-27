@@ -1,9 +1,21 @@
 ---
-layout: page
+layout: default
 ---
 
-{% for post in site.tags[page.tags] %}
-    <a href="{{ post.url | absolute_url }}">
-      {{ post.title }}
-    </a>
+<h1>{{ page.name }}</h1>
+
+{% for post in site.posts %}
+  {% if post.tags contains page.name %}
+    <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+    {{ post.excerpt }}
+    {% if post.tags.size > 0 %}
+	<footer class="article-footer">
+	  <ul class="tags">
+	  {% for tag in post.tags %}
+        <li>{{ tag }}</li>
+	  {% endfor %}
+      </ul>
+    </footer>
+    {% endif %}
+  {% endif %}
 {% endfor %}
