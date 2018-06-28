@@ -5,7 +5,7 @@
   <footer class="article-footer">
     <ul class="tags">
       {% for tag in post.tags %}
-        <li>{{ tag }}</li>
+        <li><a href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
       {% endfor %}
     </ul>
   </footer>

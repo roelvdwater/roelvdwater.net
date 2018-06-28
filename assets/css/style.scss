@@ -9,13 +9,16 @@
 }
 
 .main-content ul li {
+    display: inline-block;
+}
+
+.main-content ul li a {
     background-color: #777;
     color: #fff;
     padding: 7px 10px;
     margin: 0 4px 0 0;
     border-radius: 10px;
     font-size: .8em;
-    display: inline-block;
 }
 
 .article-footer {

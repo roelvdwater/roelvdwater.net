@@ -20,8 +20,8 @@
       <footer class="article-footer">
         <span>Written by {{ page.author }} on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>.</span>
         <ul class="tags">
-          {% for tags in page.tags %}
-            <li>{{ tags }}</li>
+          {% for tag in page.tags %}
+			<li><a href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
           {% endfor %}
         </ul>
       </footer>
