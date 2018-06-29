@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: Roels Blog
-description: Journey through my adventures while trying to develop software.
+description: Journey through my adventures while developing software.
 permalink: /:title:output_ext
 collections:
   article_tags:
