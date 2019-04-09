@@ -4,7 +4,7 @@ title: About me
 ---
 
 # About me
-Hi there! My name is Roel van de Water. I'm 24 years old and I come from The Netherlands. I work as a software developer for Coolblue, one of the biggest webshops in The Netherlands.
+Hi there! My name is Roel van de Water. I'm 25 years old and I come from The Netherlands. I work as a software developer for Coolblue, one of the biggest webshops in The Netherlands.
 
 I've always been passionate about computers and software development, and I'm happy that I could make it my daily job.
 
