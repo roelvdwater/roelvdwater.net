@@ -45,7 +45,7 @@ To set it up, navigate to **Internet** > **Permit Access** > **DynDNS**. Check t
 | Username    | foo                             |
 | Password    | bar                             |
 
-![DynDNS configuration](PermitAccess-DynDNS.png)
+![DynDNS configuration](assets/images/PermitAccess-DynDNS.png)
 
 The key field here is the **Update URL**, which points to the `robots.txt` file served from the FRITZ!Box itself and provides the `200 OK` response needed to validate the DynDNS settings.
 
